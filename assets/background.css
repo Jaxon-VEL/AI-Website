@@ -1,0 +1,15 @@
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: url("valor-elite-labs-logo.jpg") center / min(680px, 74vw) no-repeat;
+  opacity: 0.055;
+  filter: grayscale(1) contrast(1.2);
+}
+
+body {
+  position: relative;
+  isolation: isolate;
+}
